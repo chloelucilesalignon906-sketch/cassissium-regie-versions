@@ -1,11 +1,11 @@
 {
-  "version": "0.5.1",
-  "fichier": "Cassissium-Regie-Mise-a-jour-0.5.1.cassmaj",
+  "version": "0.5.2",
+  "fichier": "Cassissium-Regie-Mise-a-jour-0.5.2.cassmaj",
   "depuis": "0.5.0",
-  "date": "2026-11-19T15:38:03.971Z",
+  "date": "2026-11-19T16:13:11.828Z",
   "notes": [
-    "Une séquence lumière par langue : un appui sur la langue lance film, son et séquence",
-    "Import grandMA : crée une séquence lumière et la relie à une langue",
-    "Onglet admin Vidéoprojecteur ; mises à jour depuis ce dépôt avec redémarrage automatique"
+    "Nouvel habillage en dégradés noir et violet",
+    "Chaque écran tient dans la fenêtre sans faire défiler",
+    "Rappel 0.5.1 : une séquence lumière par langue"
   ]
 }
