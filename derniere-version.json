@@ -1,10 +1,10 @@
 {
-  "version": "0.6.0",
-  "fichier": "Cassissium-Regie-Mise-a-jour-0.6.0.cassmaj",
+  "version": "0.6.1",
+  "fichier": "Cassissium-Regie-Mise-a-jour-0.6.1.cassmaj",
   "depuis": "0.5.0",
-  "date": "2026-11-19T16:55:11.939Z",
+  "date": "2026-11-19T17:10:59.735Z",
   "notes": [
-    "Timeline dans une scène : étapes avec fondus et courbes, effets (éclairs, respiration, chenillard, arc-en-ciel, balayage, clignotement, bougie) et intensité générale",
-    "La timeline suit le film pendant la séance, pause comprise"
+    "Son de la salle réglable aux molettes du Stream Deck + XL (module Companion 1.1.0) : volume général, dialogues, caisson, façade, ambiance, coupure",
+    "Curseur de volume et bouton « Couper le son » sur l'écran de régie"
   ]
 }
