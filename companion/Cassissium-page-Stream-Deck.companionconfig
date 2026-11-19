@@ -1,0 +1,1023 @@
+{
+  "version": 8,
+  "type": "page",
+  "page": {
+    "name": "Cassissium",
+    "controls": {
+      "0": {
+        "0": {
+          "type": "button",
+          "style": {
+            "text": "FR\nFrançais",
+            "textExpression": false,
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 9314133,
+            "show_topbar": "default",
+            "png64": null
+          },
+          "options": {
+            "stepAutoProgress": true,
+            "rotaryActions": false
+          },
+          "feedbacks": [
+            {
+              "type": "feedback",
+              "id": "f0002cass",
+              "definitionId": "seance_en_cours",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 3288120,
+                "color": 8550535
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0003cass",
+              "definitionId": "langue_en_cours",
+              "connectionId": "cassissium",
+              "options": {
+                "langue": "FR"
+              },
+              "style": {
+                "bgcolor": 5016622,
+                "color": 16777215
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0004cass",
+              "definitionId": "hors_ligne",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 3937310,
+                "color": 10516610
+              },
+              "isInverted": false
+            }
+          ],
+          "steps": {
+            "0": {
+              "action_sets": {
+                "down": [
+                  {
+                    "type": "action",
+                    "id": "a0001cass",
+                    "definitionId": "lancer",
+                    "connectionId": "cassissium",
+                    "options": {
+                      "langue": "FR"
+                    }
+                  }
+                ],
+                "up": []
+              },
+              "options": {
+                "runWhileHeld": []
+              }
+            }
+          },
+          "localVariables": []
+        },
+        "1": {
+          "type": "button",
+          "style": {
+            "text": "EN\nEnglish",
+            "textExpression": false,
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 9314133,
+            "show_topbar": "default",
+            "png64": null
+          },
+          "options": {
+            "stepAutoProgress": true,
+            "rotaryActions": false
+          },
+          "feedbacks": [
+            {
+              "type": "feedback",
+              "id": "f0006cass",
+              "definitionId": "seance_en_cours",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 3288120,
+                "color": 8550535
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0007cass",
+              "definitionId": "langue_en_cours",
+              "connectionId": "cassissium",
+              "options": {
+                "langue": "EN"
+              },
+              "style": {
+                "bgcolor": 5016622,
+                "color": 16777215
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0008cass",
+              "definitionId": "hors_ligne",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 3937310,
+                "color": 10516610
+              },
+              "isInverted": false
+            }
+          ],
+          "steps": {
+            "0": {
+              "action_sets": {
+                "down": [
+                  {
+                    "type": "action",
+                    "id": "a0005cass",
+                    "definitionId": "lancer",
+                    "connectionId": "cassissium",
+                    "options": {
+                      "langue": "EN"
+                    }
+                  }
+                ],
+                "up": []
+              },
+              "options": {
+                "runWhileHeld": []
+              }
+            }
+          },
+          "localVariables": []
+        },
+        "2": {
+          "type": "button",
+          "style": {
+            "text": "DE\nDeutsch",
+            "textExpression": false,
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 9314133,
+            "show_topbar": "default",
+            "png64": null
+          },
+          "options": {
+            "stepAutoProgress": true,
+            "rotaryActions": false
+          },
+          "feedbacks": [
+            {
+              "type": "feedback",
+              "id": "f0010cass",
+              "definitionId": "seance_en_cours",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 3288120,
+                "color": 8550535
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0011cass",
+              "definitionId": "langue_en_cours",
+              "connectionId": "cassissium",
+              "options": {
+                "langue": "DE"
+              },
+              "style": {
+                "bgcolor": 5016622,
+                "color": 16777215
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0012cass",
+              "definitionId": "hors_ligne",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 3937310,
+                "color": 10516610
+              },
+              "isInverted": false
+            }
+          ],
+          "steps": {
+            "0": {
+              "action_sets": {
+                "down": [
+                  {
+                    "type": "action",
+                    "id": "a0009cass",
+                    "definitionId": "lancer",
+                    "connectionId": "cassissium",
+                    "options": {
+                      "langue": "DE"
+                    }
+                  }
+                ],
+                "up": []
+              },
+              "options": {
+                "runWhileHeld": []
+              }
+            }
+          },
+          "localVariables": []
+        },
+        "3": {
+          "type": "button",
+          "style": {
+            "text": "ES\nEspañol",
+            "textExpression": false,
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 9314133,
+            "show_topbar": "default",
+            "png64": null
+          },
+          "options": {
+            "stepAutoProgress": true,
+            "rotaryActions": false
+          },
+          "feedbacks": [
+            {
+              "type": "feedback",
+              "id": "f0014cass",
+              "definitionId": "seance_en_cours",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 3288120,
+                "color": 8550535
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0015cass",
+              "definitionId": "langue_en_cours",
+              "connectionId": "cassissium",
+              "options": {
+                "langue": "ES"
+              },
+              "style": {
+                "bgcolor": 5016622,
+                "color": 16777215
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0016cass",
+              "definitionId": "hors_ligne",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 3937310,
+                "color": 10516610
+              },
+              "isInverted": false
+            }
+          ],
+          "steps": {
+            "0": {
+              "action_sets": {
+                "down": [
+                  {
+                    "type": "action",
+                    "id": "a0013cass",
+                    "definitionId": "lancer",
+                    "connectionId": "cassissium",
+                    "options": {
+                      "langue": "ES"
+                    }
+                  }
+                ],
+                "up": []
+              },
+              "options": {
+                "runWhileHeld": []
+              }
+            }
+          },
+          "localVariables": []
+        },
+        "4": {
+          "type": "button",
+          "style": {
+            "text": "IT\nItaliano",
+            "textExpression": false,
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 9314133,
+            "show_topbar": "default",
+            "png64": null
+          },
+          "options": {
+            "stepAutoProgress": true,
+            "rotaryActions": false
+          },
+          "feedbacks": [
+            {
+              "type": "feedback",
+              "id": "f0018cass",
+              "definitionId": "seance_en_cours",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 3288120,
+                "color": 8550535
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0019cass",
+              "definitionId": "langue_en_cours",
+              "connectionId": "cassissium",
+              "options": {
+                "langue": "IT"
+              },
+              "style": {
+                "bgcolor": 5016622,
+                "color": 16777215
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0020cass",
+              "definitionId": "hors_ligne",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 3937310,
+                "color": 10516610
+              },
+              "isInverted": false
+            }
+          ],
+          "steps": {
+            "0": {
+              "action_sets": {
+                "down": [
+                  {
+                    "type": "action",
+                    "id": "a0017cass",
+                    "definitionId": "lancer",
+                    "connectionId": "cassissium",
+                    "options": {
+                      "langue": "IT"
+                    }
+                  }
+                ],
+                "up": []
+              },
+              "options": {
+                "runWhileHeld": []
+              }
+            }
+          },
+          "localVariables": []
+        }
+      },
+      "1": {
+        "0": {
+          "type": "button",
+          "style": {
+            "text": "NL\nNederlands",
+            "textExpression": false,
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 9314133,
+            "show_topbar": "default",
+            "png64": null
+          },
+          "options": {
+            "stepAutoProgress": true,
+            "rotaryActions": false
+          },
+          "feedbacks": [
+            {
+              "type": "feedback",
+              "id": "f0022cass",
+              "definitionId": "seance_en_cours",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 3288120,
+                "color": 8550535
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0023cass",
+              "definitionId": "langue_en_cours",
+              "connectionId": "cassissium",
+              "options": {
+                "langue": "NL"
+              },
+              "style": {
+                "bgcolor": 5016622,
+                "color": 16777215
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0024cass",
+              "definitionId": "hors_ligne",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 3937310,
+                "color": 10516610
+              },
+              "isInverted": false
+            }
+          ],
+          "steps": {
+            "0": {
+              "action_sets": {
+                "down": [
+                  {
+                    "type": "action",
+                    "id": "a0021cass",
+                    "definitionId": "lancer",
+                    "connectionId": "cassissium",
+                    "options": {
+                      "langue": "NL"
+                    }
+                  }
+                ],
+                "up": []
+              },
+              "options": {
+                "runWhileHeld": []
+              }
+            }
+          },
+          "localVariables": []
+        },
+        "1": {
+          "type": "button",
+          "style": {
+            "text": "$(cassissium:etat)\n$(cassissium:langue)\n$(cassissium:temps)",
+            "textExpression": false,
+            "size": "14",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "show_topbar": "default",
+            "png64": null
+          },
+          "options": {
+            "stepAutoProgress": true,
+            "rotaryActions": false
+          },
+          "feedbacks": [
+            {
+              "type": "feedback",
+              "id": "f0025cass",
+              "definitionId": "phase",
+              "connectionId": "cassissium",
+              "options": {
+                "phase": "film"
+              },
+              "style": {
+                "bgcolor": 5016622,
+                "color": 16777215
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0026cass",
+              "definitionId": "phase",
+              "connectionId": "cassissium",
+              "options": {
+                "phase": "pause"
+              },
+              "style": {
+                "bgcolor": 14060574,
+                "color": 0
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0027cass",
+              "definitionId": "hors_ligne",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 5898240,
+                "color": 16777215
+              },
+              "isInverted": false
+            }
+          ],
+          "steps": {
+            "0": {
+              "action_sets": {
+                "down": [],
+                "up": []
+              },
+              "options": {
+                "runWhileHeld": []
+              }
+            }
+          },
+          "localVariables": []
+        },
+        "2": {
+          "type": "button",
+          "style": {
+            "text": "PAUSE",
+            "textExpression": false,
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 3806800,
+            "show_topbar": "default",
+            "png64": null
+          },
+          "options": {
+            "stepAutoProgress": true,
+            "rotaryActions": false
+          },
+          "feedbacks": [
+            {
+              "type": "feedback",
+              "id": "f0029cass",
+              "definitionId": "phase",
+              "connectionId": "cassissium",
+              "options": {
+                "phase": "pause"
+              },
+              "style": {
+                "bgcolor": 14060574,
+                "color": 0,
+                "text": "REPRISE"
+              },
+              "isInverted": false
+            }
+          ],
+          "steps": {
+            "0": {
+              "action_sets": {
+                "down": [
+                  {
+                    "type": "action",
+                    "id": "a0028cass",
+                    "definitionId": "pause",
+                    "connectionId": "cassissium",
+                    "options": {}
+                  }
+                ],
+                "up": []
+              },
+              "options": {
+                "runWhileHeld": []
+              }
+            }
+          },
+          "localVariables": []
+        },
+        "3": {
+          "type": "button",
+          "style": {
+            "text": "ARRÊT",
+            "textExpression": false,
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 12459550,
+            "show_topbar": "default",
+            "png64": null
+          },
+          "options": {
+            "stepAutoProgress": true,
+            "rotaryActions": false
+          },
+          "feedbacks": [
+            {
+              "type": "feedback",
+              "id": "f0031cass",
+              "definitionId": "arret_arme",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 16727100,
+                "color": 16777215,
+                "text": "ENCORE\nPOUR\nARRÊTER"
+              },
+              "isInverted": false
+            }
+          ],
+          "steps": {
+            "0": {
+              "action_sets": {
+                "down": [
+                  {
+                    "type": "action",
+                    "id": "a0030cass",
+                    "definitionId": "arreter",
+                    "connectionId": "cassissium",
+                    "options": {
+                      "force": false
+                    }
+                  }
+                ],
+                "up": []
+              },
+              "options": {
+                "runWhileHeld": []
+              }
+            }
+          },
+          "localVariables": []
+        },
+        "4": {
+          "type": "button",
+          "style": {
+            "text": "$(cassissium:restant)",
+            "textExpression": false,
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 13156050,
+            "bgcolor": 0,
+            "show_topbar": "default",
+            "png64": null
+          },
+          "options": {
+            "stepAutoProgress": true,
+            "rotaryActions": false
+          },
+          "feedbacks": [],
+          "steps": {
+            "0": {
+              "action_sets": {
+                "down": [],
+                "up": []
+              },
+              "options": {
+                "runWhileHeld": []
+              }
+            }
+          },
+          "localVariables": []
+        }
+      },
+      "2": {
+        "0": {
+          "type": "button",
+          "style": {
+            "text": "$(cassissium:vp_bouton_on)",
+            "textExpression": false,
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 1984025,
+            "show_topbar": "default",
+            "png64": null
+          },
+          "options": {
+            "stepAutoProgress": true,
+            "rotaryActions": false
+          },
+          "feedbacks": [
+            {
+              "type": "feedback",
+              "id": "f0033cass",
+              "definitionId": "vp_etat",
+              "connectionId": "cassissium",
+              "options": {
+                "etat": "allume"
+              },
+              "style": {
+                "bgcolor": 5016622,
+                "color": 16777215
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0034cass",
+              "definitionId": "vp_decompte",
+              "connectionId": "cassissium",
+              "options": {
+                "action": "allumage"
+              },
+              "style": {
+                "bgcolor": 14060574,
+                "color": 0
+              },
+              "isInverted": false
+            }
+          ],
+          "steps": {
+            "0": {
+              "action_sets": {
+                "down": [
+                  {
+                    "type": "action",
+                    "id": "a0032cass",
+                    "definitionId": "vp_allumer",
+                    "connectionId": "cassissium",
+                    "options": {}
+                  }
+                ],
+                "up": []
+              },
+              "options": {
+                "runWhileHeld": []
+              }
+            }
+          },
+          "localVariables": []
+        },
+        "1": {
+          "type": "button",
+          "style": {
+            "text": "$(cassissium:vp_bouton_off)",
+            "textExpression": false,
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 4592660,
+            "show_topbar": "default",
+            "png64": null
+          },
+          "options": {
+            "stepAutoProgress": true,
+            "rotaryActions": false
+          },
+          "feedbacks": [
+            {
+              "type": "feedback",
+              "id": "f0036cass",
+              "definitionId": "vp_etat",
+              "connectionId": "cassissium",
+              "options": {
+                "etat": "veille"
+              },
+              "style": {
+                "bgcolor": 3288120,
+                "color": 16777215
+              },
+              "isInverted": false
+            },
+            {
+              "type": "feedback",
+              "id": "f0037cass",
+              "definitionId": "vp_decompte",
+              "connectionId": "cassissium",
+              "options": {
+                "action": "extinction"
+              },
+              "style": {
+                "bgcolor": 14060574,
+                "color": 0
+              },
+              "isInverted": false
+            }
+          ],
+          "steps": {
+            "0": {
+              "action_sets": {
+                "down": [
+                  {
+                    "type": "action",
+                    "id": "a0035cass",
+                    "definitionId": "vp_eteindre",
+                    "connectionId": "cassissium",
+                    "options": {
+                      "force": false
+                    }
+                  }
+                ],
+                "up": []
+              },
+              "options": {
+                "runWhileHeld": []
+              }
+            }
+          },
+          "localVariables": []
+        },
+        "2": {
+          "type": "button",
+          "style": {
+            "text": "Accueil",
+            "textExpression": false,
+            "size": "14",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 0,
+            "bgcolor": 15184491,
+            "show_topbar": "default",
+            "png64": null
+          },
+          "options": {
+            "stepAutoProgress": true,
+            "rotaryActions": false
+          },
+          "feedbacks": [
+            {
+              "type": "feedback",
+              "id": "f0039cass",
+              "definitionId": "seance_en_cours",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 3288120,
+                "color": 8550535
+              },
+              "isInverted": false
+            }
+          ],
+          "steps": {
+            "0": {
+              "action_sets": {
+                "down": [
+                  {
+                    "type": "action",
+                    "id": "a0038cass",
+                    "definitionId": "scene",
+                    "connectionId": "cassissium",
+                    "options": {
+                      "scene": "accueil"
+                    }
+                  }
+                ],
+                "up": []
+              },
+              "options": {
+                "runWhileHeld": []
+              }
+            }
+          },
+          "localVariables": []
+        },
+        "3": {
+          "type": "button",
+          "style": {
+            "text": "Salle au noir",
+            "textExpression": false,
+            "size": "14",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 2763306,
+            "show_topbar": "default",
+            "png64": null
+          },
+          "options": {
+            "stepAutoProgress": true,
+            "rotaryActions": false
+          },
+          "feedbacks": [
+            {
+              "type": "feedback",
+              "id": "f0041cass",
+              "definitionId": "seance_en_cours",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 3288120,
+                "color": 8550535
+              },
+              "isInverted": false
+            }
+          ],
+          "steps": {
+            "0": {
+              "action_sets": {
+                "down": [
+                  {
+                    "type": "action",
+                    "id": "a0040cass",
+                    "definitionId": "scene",
+                    "connectionId": "cassissium",
+                    "options": {
+                      "scene": "noir"
+                    }
+                  }
+                ],
+                "up": []
+              },
+              "options": {
+                "runWhileHeld": []
+              }
+            }
+          },
+          "localVariables": []
+        },
+        "4": {
+          "type": "button",
+          "style": {
+            "text": "Fin de séance",
+            "textExpression": false,
+            "size": "14",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 0,
+            "bgcolor": 15918808,
+            "show_topbar": "default",
+            "png64": null
+          },
+          "options": {
+            "stepAutoProgress": true,
+            "rotaryActions": false
+          },
+          "feedbacks": [
+            {
+              "type": "feedback",
+              "id": "f0043cass",
+              "definitionId": "seance_en_cours",
+              "connectionId": "cassissium",
+              "options": {},
+              "style": {
+                "bgcolor": 3288120,
+                "color": 8550535
+              },
+              "isInverted": false
+            }
+          ],
+          "steps": {
+            "0": {
+              "action_sets": {
+                "down": [
+                  {
+                    "type": "action",
+                    "id": "a0042cass",
+                    "definitionId": "scene",
+                    "connectionId": "cassissium",
+                    "options": {
+                      "scene": "fin"
+                    }
+                  }
+                ],
+                "up": []
+              },
+              "options": {
+                "runWhileHeld": []
+              }
+            }
+          },
+          "localVariables": []
+        }
+      }
+    },
+    "gridSize": {
+      "minColumn": 0,
+      "maxColumn": 7,
+      "minRow": 0,
+      "maxRow": 3
+    }
+  },
+  "instances": {
+    "cassissium": {
+      "label": "cassissium",
+      "instance_type": "cassissium-regie",
+      "lastUpgradeIndex": -1,
+      "sortOrder": 0
+    }
+  },
+  "oldPageNumber": 1
+}
