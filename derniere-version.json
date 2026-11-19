@@ -1,10 +1,9 @@
 {
-  "version": "0.6.2",
-  "fichier": "Cassissium-Regie-Mise-a-jour-0.6.2.cassmaj",
+  "version": "0.6.3",
+  "fichier": "Cassissium-Regie-Mise-a-jour-0.6.3.cassmaj",
   "depuis": "0.5.0",
-  "date": "2026-11-19T17:45:32.089Z",
+  "date": "2026-11-19T17:51:35.477Z",
   "notes": [
-    "Animation d'ouverture de 12 secondes au lancement (un clic la passe)",
-    "Le mode client s'appelle désormais « mode show »"
+    "Animation d'ouverture : ne peut plus être passée, ligne de chargement ajoutée"
   ]
 }
