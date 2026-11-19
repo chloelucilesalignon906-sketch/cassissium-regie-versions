@@ -1,10 +1,10 @@
 {
-  "version": "0.6.1",
-  "fichier": "Cassissium-Regie-Mise-a-jour-0.6.1.cassmaj",
+  "version": "0.6.2",
+  "fichier": "Cassissium-Regie-Mise-a-jour-0.6.2.cassmaj",
   "depuis": "0.5.0",
-  "date": "2026-11-19T17:10:59.735Z",
+  "date": "2026-11-19T17:45:32.089Z",
   "notes": [
-    "Son de la salle réglable aux molettes du Stream Deck + XL (module Companion 1.1.0) : volume général, dialogues, caisson, façade, ambiance, coupure",
-    "Curseur de volume et bouton « Couper le son » sur l'écran de régie"
+    "Animation d'ouverture de 12 secondes au lancement (un clic la passe)",
+    "Le mode client s'appelle désormais « mode show »"
   ]
 }
